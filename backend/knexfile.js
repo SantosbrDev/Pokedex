@@ -3,11 +3,11 @@
 module.exports = {
 
   development: {
-    client: 'mysql',
+    client: 'postgresql',
     connection: {
       database: 'pokemon',
-      user:     'carlos',
-      password: 'carlos'
+      user: 'test',
+      password: 'test'
     }, migrations: {
       directory: './src/database/migrations'
     }
@@ -17,7 +17,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
@@ -33,7 +33,7 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user:     'username',
+      user: 'username',
       password: 'password'
     },
     pool: {
